@@ -1,5 +1,12 @@
-package mr.demonid;
+/*
+ * CrptApi.java
+ * Тестовое задание для компании SelSup.
+ * Автор: Andrey Hlus
+ *
+ * License: MIT (см. LICENSE в корне проекта)
+ */
 
+package mr.demonid;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonProperty;
@@ -19,6 +26,7 @@ import java.nio.charset.StandardCharsets;
 import java.time.LocalDate;
 import java.util.*;
 import java.util.concurrent.TimeUnit;
+
 
 /**
  * Класс для работы с API Честного знака.
